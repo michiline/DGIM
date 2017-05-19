@@ -11,8 +11,8 @@ Problem\
 some of the k most recent bits\
 ● Add half the size of the last bucket\
 
-– Maintaining buckets
-● When a new bit comes in
+– Maintaining buckets\
+● When a new bit comes in\
 – delete the oldest bucket if its end-time is prior to N time units before the
 current time (update LAST/TOTAL)\
 – If the new bit is 0 → no other changes\
